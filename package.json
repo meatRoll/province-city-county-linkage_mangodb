@@ -1,6 +1,6 @@
 {
   "name": "province-city-county-linkage_mangodb",
-  "version": "1.1.0",
+  "version": "1.2.1",
   "description": "用于在mongodbz中生成省市县联动的数据库",
   "main": "province-city-county-database.js",
   "scripts": {
@@ -16,7 +16,13 @@
   ],
   "author": "meatroll",
   "license": "ISC",
+  "readme": "./README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meatRoll/province-city-county-linkage_mangodb"
+  },
   "dependencies": {
     "mongodb": "^2.2.31"
-  }
+  },
+  "homepage": "https://github.com/meatRoll/province-city-county-linkage_mangodb#readme"
 }

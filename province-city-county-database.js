@@ -40,13 +40,13 @@ const insertMany = (db, collectionName, data, exitOut) => {
 const writeDatabase = db => {
 	// 读取转换JSON文件
 	process.stdout.write(`Reading province.json...\r\n`);
-	const province = readJSON(`./province.json`);
+	const province = readJSON(`./json/province.json`);
 	process.stdout.write(`Succeed loading province.json.\r\n`);
 	process.stdout.write(`Reading city.json...\r\n`);
-	const city = readJSON(`./city.json`);
+	const city = readJSON(`./json/city.json`);
 	process.stdout.write(`Succeed loading city.json.\r\n`);
 	process.stdout.write(`Reading county.json...\r\n`);
-	const county = readJSON(`./county.json`);
+	const county = readJSON(`./json/county.json`);
 	process.stdout.write(`Succeed loading county.json.\r\n`);
 
 	insertMany(db, `Province`, province);
