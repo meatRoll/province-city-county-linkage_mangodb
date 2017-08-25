@@ -1,0 +1,22 @@
+{
+  "name": "province-city-county-linkage_mangodb",
+  "version": "1.1.0",
+  "description": "用于在mongodbz中生成省市县联动的数据库",
+  "main": "province-city-county-database.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node province-city-county-database"
+  },
+  "keywords": [
+    "province",
+    "city",
+    "county",
+    "mangodb",
+    "linkage"
+  ],
+  "author": "meatroll",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^2.2.31"
+  }
+}
