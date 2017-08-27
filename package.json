@@ -16,7 +16,7 @@
   ],
   "author": "meatroll",
   "license": "ISC",
-  "readme": "./README.md",
+  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/meatRoll/province-city-county-linkage_mangodb"
