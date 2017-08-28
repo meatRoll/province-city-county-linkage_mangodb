@@ -8,7 +8,7 @@
 
 ## 2. 使用步骤：
 
-* 在导入文件夹中使用`npm start`指令启动；
+* 在导入文件夹中使用`npm run getdata ` 指令启动；
 
 * 当出现以下提示时请输入服务器地址：
   - ![host](./images/host.png) 
